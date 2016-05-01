@@ -57,3 +57,8 @@ div{
 	height: 100%;
 	background-color: grey;
 }
+#article{
+	border : solid black 1px;
+	margin-left : 22%;
+	margin-right : 22%
+}

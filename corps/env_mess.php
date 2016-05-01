@@ -13,5 +13,5 @@
 		$res = $req_comm->execute(array($title));
 		//echo "requete executer";	
 
-	header('Location:http://localhost/css/index.php');
+	header('Location:http://localhost/projet/index.php');
 ?>

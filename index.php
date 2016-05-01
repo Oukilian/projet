@@ -11,8 +11,8 @@
 	<body>
     I		
 		
-		<div id="header"><p>HEADER DU BLOG</p>
-			<?php include('head.php'); ?>
+		<div id="header"><h1>HEADER DU BLOG</h1>
+			<?php include('head/head.php'); ?>
 
 		</div>
 		<div id="sujet">SUJET DU JOUR
@@ -24,7 +24,9 @@
 			</div>		
 		</div>
 		<div id="corps">
-			<?php include('corps/corps.php');
+			<?php
+			     include('corps/fonc_mess.php'); 
+			     
 			     //include('corps/aff_comm.php');
 			     //include('corps/com.php');
 

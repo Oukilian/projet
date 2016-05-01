@@ -17,6 +17,6 @@
         $ver->closeCursor();
 
 
-	header('Location:http://localhost/css/index.php');
+	header('Location:http://localhost/projet/index.php');
 
 ?>
