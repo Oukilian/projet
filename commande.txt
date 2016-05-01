@@ -1,0 +1,13 @@
+--git add Nomdefichier :                Ajoute un dossier a commit
+-git log:                               Permet de voir l'historique des modifications
+-git status:                            Status des dossiers du repertoire
+-git commit:                            Ajoute les dernière modification a l'historique des modifications
+-git pull:                              recupère les dernière modification depuis le serveur
+-git push:                              envoie les dernière modification au serveur
+
+Les branches
+
+-git branch:                            Affiche les branches du projet
+-git branch NomDeLaBranche:             Crée une nouvelle branche au projet
+-git checkout NomDeLaBranche:           Switch vers la Branche
+--git checkout -d NomDeLaBranche:       Supprime La Branche

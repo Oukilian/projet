@@ -1,0 +1,59 @@
+html{
+	height: 100%;
+
+}
+body{
+	height: 100%;
+}
+
+
+div{
+	text-align: center;
+
+}
+
+#header{
+	width:100% ;
+	height:10% ;
+	background-color: blue ;
+}
+
+#corps{
+        width: 100% ;
+        height: 70% ;
+        background-color: yellow;
+
+
+}
+
+#footer{
+	height: 10%;
+        width: 100%;
+        background-color: green;
+	bottom: 0%;
+	clear: both;
+
+}
+
+#co{
+	float: right;
+	width: 20%;
+	height: 70%;
+	background-color: red;
+
+}
+
+#sujet{
+	float: left;
+	width: 20%;
+	height: 70%;
+	background-color: orange;
+
+
+}
+
+#connection{
+	width: 100%;
+	height: 100%;
+	background-color: grey;
+}
