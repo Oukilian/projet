@@ -3,6 +3,6 @@
 		$titre = $donnee['titre'];
 		$article = $donnee['article'];
 
-		echo("<br/>$titre<br /><br />$article" ?>
+		echo"<a href=","arobase.php?id=".$donnees['id'].">".$titre."<br/></a>".$article; ?>
 
 </div>

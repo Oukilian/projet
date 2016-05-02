@@ -8,11 +8,11 @@
 		<link rel="stylesheet" href="css/style.css"/>
 	</head>
 
-	<body>
-    I		
-		
-		<div id="header"><h1>HEADER DU BLOG</h1>
-			<?php include('head/head.php'); ?>
+	<body>		
+		<div id="header"><p>HEADER DU BLOG</p>
+			<?php 
+				include('head/return_main.php');
+				include('head/head.php'); ?>
 
 		</div>
 		<div id="sujet">SUJET DU JOUR
@@ -25,11 +25,14 @@
 		</div>
 		<div id="corps">
 			<?php
+			if($_SESSION['id'] == -1){
 			     include('corps/fonc_mess.php'); 
-			     
-			     //include('corps/aff_comm.php');
-			     //include('corps/com.php');
-
+			}
+			if($_SESSION['id'] != -1){
+			     	include('corps/aff_article.php');
+				//include('corps/aff_comm.php');
+				//include('corps/com.php');
+			}
  ?>
 		</div>
 
