@@ -1,0 +1,1 @@
+<iframe scrolling="no" frameborder="0" allowTransparency="true" src="http://www.deezer.com/plugins/player?format=square&autoplay=false&playlist=false&width=80&height=80&color=007FEB&layout=dark&size=small&type=radio&id=artist-5054289&app_id=1" width="80" height="80"></iframe>
