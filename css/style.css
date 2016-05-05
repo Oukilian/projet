@@ -19,9 +19,16 @@
               url('fonts/police1.svg#police1') format('svg');
 }
 .branche{
-        position: absolute;
+        position: fixed;
         top: -6%;
         right: 20%;
+
+
+}
+
+.branche2{
+    position: fixed;
+    bottom: -1%;
 
 
 }

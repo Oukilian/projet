@@ -39,6 +39,7 @@
 			}
  ?>
 		</div>
+          <img  class='branche2' src='css/image/branche2.png' alt='taya'/>
 
 		
 
