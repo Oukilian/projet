@@ -32,10 +32,10 @@
 				echo "<article>";
 			     	include('corps/aff_article.php');
 				echo "</article><br/>";
-				echo"<article>";
+				//echo"<article>";
 				include('corps/aff_com.php');
 				include('corps/env_com.php');
-				echo"</article>";
+				//echo"</article>";
 			}
  ?>
 		</div>

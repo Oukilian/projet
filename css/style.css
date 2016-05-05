@@ -1,4 +1,15 @@
 @font-face {
+    font-family: 'Police2';
+    src: url('fonts/police2.eot');
+    src: url('fonts/police2.eot') format('embedded-opentype'),
+         url('fonts/police2.woff2') format('woff2'),
+         url('fonts/police2.woff') format('woff'),
+         url('fonts/police2.ttf') format('truetype'),
+         url('fonts/police2.svg#police2') format('svg');
+}
+
+
+@font-face {
 	font-family: 'Police1';
          src: url('fonts/police1.eot');
          src: url('fonts/police1.eot') format('embedded-opentype'),
@@ -43,16 +54,17 @@ textarea{
 #header{
 	width:100% ;
 	height:10% ;
-        background-color: #B6E33D;
-        box-shadow: 5px 5px 10px green;
+    background-color: #B6E33D;
+    box-shadow: 5px 5px 10px green;
 	margin-bottom: 2%;
 	border-radius: 20px 0px 20px 0px;
 	//background-color: blue ;
 }
 
 #corps{
+       font-family: Police2;
        width: 100% ;
-        //        background-color: yellow;
+      //background-color: yellow;
 
 	
 }
