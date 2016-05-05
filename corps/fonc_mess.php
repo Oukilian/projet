@@ -4,6 +4,6 @@
 	while($donnee = $ver->fetch()){ 
 			$title = $donnee['titre'];
 			$message = $donnee['article'];
-			echo"<a href=","corps/fonc_associe_id.php?id=".$donnee['id']."><br/>".$title."<br/><br /></a>".$message."<br/>";	
+			echo"<article><a href=","corps/fonc_associe_id.php?id=".$donnee['id']."><br/>".$title."<br/><br /></a>".$message."<br/></article><br/>";	
 	}
 ?>

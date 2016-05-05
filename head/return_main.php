@@ -1,5 +1,4 @@
+<a href="head/main.php"><img src="css/image/flower.png" />Accueil</a>
 
-<form style="display : inline-block; text-align : left;" method="post" action="head/main.php" />
-	<input type="submit" value="accueil" />
-</form>
+
 

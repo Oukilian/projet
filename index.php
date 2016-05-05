@@ -9,8 +9,8 @@
 	</head>
 
 	<body>		
-		<div id="header"><p>HEADER DU BLOG</p>
-			<?php 
+		<div id="header">
+			<?php 	echo("<br/>");
 				include('head/return_main.php');
 				include('head/head.php'); ?>
 
@@ -29,14 +29,18 @@
 			     include('corps/fonc_mess.php'); 
 			}
 			if($_SESSION['id'] != -1){
+				echo "<article>";
 			     	include('corps/aff_article.php');
-				//include('corps/aff_comm.php');
-				//include('corps/com.php');
+				echo "</article><br/>";
+				echo"<article>";
+				include('corps/aff_com.php');
+				include('corps/env_com.php');
+				echo"</article>";
 			}
  ?>
 		</div>
 
-		<div id="footer">FOOTER DE LA PAGE</div>
+		
 
 	</body>
 

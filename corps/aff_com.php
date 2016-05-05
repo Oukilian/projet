@@ -1,7 +1,8 @@
 <?php
-	include('start.php');
-$reponse = $bdd->query('SELECT * FROM `première article` ORDER BY id DESC');
-		while ($donnees = $reponse->fetch()){
-			echo $donnees['pse']," : ",$donnees['commentaire']," "; ?> <br/> <?php
-		}
+	$req = $bdd->prepare("SELECT * FROM commentaire WHERE id_article=? ORDER BY id DESC");
+	$name = $_SESSION['article_name'];
+	$req->execute(array($name));	
+	while ($donnees = $req->fetch()){
+			echo "<br/><br/>".$donnees['pseudo']." : ".$donnees['commentaire']." "."<br/>";
+	}
 ?>

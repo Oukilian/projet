@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'AlexBrushRegular';
+    src: url('fonts/AlexBrushRegular.eot');
+    src: url('fonts/AlexBrushRegular.eot') format('embedded-opentype'),
+         url('fonts/AlexBrushRegular.woff2') format('woff2'),
+         url('fonts/AlexBrushRegular.woff') format('woff'),
+         url('fonts/AlexBrushRegular.ttf') format('truetype'),
+         url('fonts/AlexBrushRegular.svg#AlexBrushRegular') format('svg');
+}
