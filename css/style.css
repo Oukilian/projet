@@ -18,10 +18,21 @@
               url('fonts/police1.ttf') format('truetype'),
               url('fonts/police1.svg#police1') format('svg');
 }
+.branche{
+        position: absolute;
+        top: -6%;
+        right: 20%;
+
+
+}
 a:link 
 { 
  text-decoration:none; 
 } 
+a{
+    color: green;
+}
+
 body{
 	//background-color: rgb(218,234,64);
 	background-color: #8FCF3C;
@@ -60,7 +71,16 @@ textarea{
 	border-radius: 20px 0px 20px 0px;
 	//background-color: blue ;
 }
+h1{
+    font-family: Police2;
+    font-size: 30px;
+       color: #E27C96;    
+}
+p{
 
+    font-size: 20px ;
+    color: #6481E0;
+}
 #corps{
        font-family: Police2;
        width: 100% ;
@@ -93,6 +113,11 @@ textarea{
 	height:  150px;
 }
 
+#sujet a{
+    font-family: Police2;
+    color: #E27C96;
+
+}
 #sujet{
 	
 	float: left;
@@ -101,7 +126,6 @@ textarea{
 	position : fixed;
 	background-color: #B6E33D;
 	box-shadow: 5px 5px 10px green;
-
 }
 
 #connection{

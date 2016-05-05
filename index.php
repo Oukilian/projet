@@ -15,7 +15,7 @@
 				include('head/head.php'); ?>
 
 		</div>
-		<div id="sujet">SUJET DU JOUR
+		<div id="sujet">sujet recent
 				<?php include('sujet_recent/sujet_recent.php'); ?>
 		</div>
 		<div id="co">
@@ -30,7 +30,7 @@
 			}
 			if($_SESSION['id'] != -1){
 				echo "<article>";
-			     	include('corps/aff_article.php');
+			    include('corps/aff_article.php');
 				echo "</article><br/>";
 				//echo"<article>";
 				include('corps/aff_com.php');
