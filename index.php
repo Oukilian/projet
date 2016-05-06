@@ -1,4 +1,4 @@
-<?php include('start.php'); ?>
+﻿<?php include('start.php'); ?>
 <html>
 
 	<head>
@@ -10,13 +10,16 @@
 
 	<body>		
 		<div id="header">
+            <i id="titre">Le Blog de Jordan♪♫♫</i>
 			<?php 	echo("<br/>");
 				include('head/return_main.php');
 				include('head/head.php'); ?>
 
 		</div>
-		<div id="sujet">sujet recent
-				<?php include('sujet_recent/sujet_recent.php'); ?>
+		<div id="sujet">
+				<?php
+                    include('sujet_recent/profile.php');
+                    include('sujet_recent/sujet_recent.php'); ?>
 		</div>
 		<div id="co">
 			<div id="connection">
@@ -39,6 +42,7 @@
 			}
  ?>
 		</div>
+          <img  class='branche2' src='css/image/branche2.png' alt='taya'/>
 
 		
 

@@ -18,10 +18,22 @@
               url('fonts/police1.ttf') format('truetype'),
               url('fonts/police1.svg#police1') format('svg');
 }
+#titre{
+    font-family: Police1;
+    font-size: 35px;
+    color: white;
+}
 .branche{
-        position: absolute;
+        position: fixed;
         top: -6%;
         right: 20%;
+
+
+}
+
+.branche2{
+    position: fixed;
+    bottom: -1%;
 
 
 }
