@@ -19,13 +19,10 @@
 	$req->closeCursor();
 	$id_com = $article_name."_".$cpt;
 	echo " ".$id_com;
-	$sql = "INSERT INTO commentaire (pseudo,commentaire,id_article,id_com_article) values ('".$name."','".$commentaire."','".$article_name."','".$id_com."')";
+	$sql = "INSERT INTO commentaire (pseudo,commentaire,id_article,id_com_article,date_envoye) values ('".$name."','".$commentaire."','".$article_name."','".$id_com."', NOW())";
 	echo $sql;
 	$rez = $bdd->prepare($sql);
 	$res = $rez->execute();
-	//if($res == TRUE){
-	//	echo"envoye réussi";
-	//}
 	
-	//header('Location:http://localhost/projet/index.php');
+	header('Location:http://localhost/projet/index.php');
 ?>

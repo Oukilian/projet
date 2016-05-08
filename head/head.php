@@ -6,5 +6,6 @@
 	$heure = date("H:i");
     echo"<img  class='branche' src='css/image/branche.png' alt='taya'/>";
 	echo("$date $heure");
+	$_SESSION['date'] = $date.$heure;
 ?>
 </i>

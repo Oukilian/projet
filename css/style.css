@@ -33,9 +33,10 @@
 }
 
 .branche2{
-    position: fixed;
-    bottom: -1%;
-
+    	position: fixed;
+    	bottom: -1%;
+	width: 25%;    
+	height: 50%;
 
 }
 a:link 
@@ -78,16 +79,16 @@ textarea{
 #header{
 	width:100% ;
 	height:10% ;
-    background-color: #B6E33D;
-    box-shadow: 5px 5px 10px green;
+    	background-color: #B6E33D;
+    	box-shadow: 5px 5px 10px green;
 	margin-bottom: 2%;
 	border-radius: 20px 0px 20px 0px;
-	//background-color: blue ;
 }
 h1{
-    font-family: Police2;
-    font-size: 30px;
-       color: #E27C96;    
+	font-family: Police2;
+	font-size: 30px;
+	color: #E27C96;
+	font-size: 200%;
 }
 p{
 
@@ -95,9 +96,8 @@ p{
     color: #6481E0;
 }
 #corps{
-       font-family: Police2;
-       width: 100% ;
-      //background-color: yellow;
+        font-family: Police2;
+        width: 100% ;
 
 	
 }
@@ -144,18 +144,24 @@ p{
 #connection{
 	width: 100%;
 	height: 90%;
-//	position : fixed;
-//	background-color: grey;
 }
 article{
-//	border : solid black 1px;
 	margin-right : 23%;
 	margin-left :22%;
 	background-color: #B6E33D;
 	box-shadow: 5px 5px 10px green;
 }
+.date{
+	font-size: 60%;
+	margin-left: 70%;
+	color : black;
 
-.bouton_connection{
-	background-image: url("image/connexion.png");
-
+}
+#commentaire{
+	color : #b795c3;
+	font-size: 150%;
+}
+.conected{
+	color: green;
+	font-family: Police2;
 }

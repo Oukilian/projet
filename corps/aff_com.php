@@ -5,6 +5,8 @@
 	$name = $_SESSION['article_name'];
 	$req->execute(array($name));	
 	while ($donnees = $req->fetch()){
-			echo "<article><br/><br/>".$donnees['pseudo']." : ".$donnees['commentaire']." "."<br/></br></article></br>";
+			echo "<article id='commentaire'>";
+			include('del_com.php');
+			echo "<br/><br/>".$donnees['pseudo']." : ".$donnees['commentaire']." "."<br/></br><i class='date'>".$donnees['date_envoye']."</i></article></br>";
 	}
 ?>
